@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500;900&display=swap');
+body {
+    margin: 0;
+    color: white;
+    background-color: #1F2235;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+nav {
+    height: 70px;
+    width: 100vw;
+    background-color: #1F2235;
+    display: grid;
+    place-items: center;
+}
+
+.my-icon {
+    font-size: 40px;
+    color: #FF4A57;
+}
+
+.inner-nav {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-nav {
+    margin: 0;
+    display: flex;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.list-item-nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-section {
+
+    width: 100vw;
+    background-color: #23263A;
+    display: flex;
+    align-items: center;
+}
+
+.home-right {
+    height: 100%;
+    width: 50%;
+}
+
+.home-left {
+    width: 60%;
+    padding-left: 100px;
+}
+
+.home-left h1 {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.home-left p {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(157, 157, 157);
+}
+
+
+.social-item {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #FF4A57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.social-item:hover {
+    transform: scale(1.2);
+}
+
+.social-icon {
+    font-size: 25px;
+}
+
+.social-ul {
+    justify-content: space-between;
+    width: 60%;
+    display: flex
+}
+
+.socials-li {
+    list-style: none;
+}
+
+.home-right {
+    padding-left: 225px;
+
+}
+
+.myservices h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.myservices p {
+    text-align: center;
+    color: rgb(157, 157, 157);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+#services {
+    text-align: center;
+    color: #FF4A57;
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+hr{
+    width:100px;
+    border-color:#FF4A57 ;
+}
+
+
+.blabla {
+    background-color: #23263A;
+    width: 200px;
+    min-height: 200px;
+    margin: 25px;
+    padding: 25px;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 50px;
+}
+
+.blabla i {
+    color: #FF4A57;
+    font-size: 50px;
+}
+
+.grid {
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
+    width: fit-content;
+}
+
+
+.bloghome {
+    width: 700px;
+    height: 500px;
+    background-color: bisque;
+    object-fit: cover;
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+body {
+   background-color: rgb(223, 175, 183);
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+}
+
+p {
+    color: rgb(126, 85, 85);
+    font-size: 18px;
+}
+
+ul {
+    color: rgb(243, 243, 243);
+    color: rgb(126, 85, 85);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 80px;
+    color: white;
+}
+
+h4 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-color: white;
+    color: rgb(35, 153, 161);
+    text-decoration: underline;
+    border-color: white;
+    
+}
+
+
+nav {
+    word-spacing: 30px;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+#search {
+    margin-left: 400px;
+    color: white;
+}
+
+#logo {
+    margin-left: 300px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(126, 85, 85);
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    height: 412px;
+}
+
+.home-left {
+    width: 450px;
+    background-color: rgb(212, 155, 165);
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 35%;
+    align-content: center;
+    padding-top: 50px;
+    
+}
+
+.home-left p {
+    text-align: center;
+}
+
+.home-right {
+    align-content: flex-start;
+    margin-left: 50px;
+}
+
+a:hover {
+    color: rgb(35, 153, 161);
+}
+
+hr {
+    border-color: rgb(35, 153, 161);
+    width: 500px;
+    font-weight: 100px;
+}
+
+.parent-of-resume-and-about {
+    display: grid;
+    grid-template-columns: 510px 510px;
+    gap: 80px;
+
+}
+
+.resume-and-about {
+    background-color:  rgb(212, 155, 165);
+    margin-left: 70px;
+    padding: 30px;
+    border-radius: 35%;
+    align-content: center;
+    width: 500px;
+}
+
+.resume-and-about h4 {
+    color: rgb(35, 153, 161);
+    text-align: center;
+}
+
+.work-one {
+    display: flex;
+    align-items: center;
+}
+
+.work-two {
+    display: flex;
+    align-items: center;
+}
+
+.work-three {
+    display: flex;
+}
+
+.first-pic {
+    margin-right: 50px;
+}
+
+.blank-one {
+    width: 1000px;
+}
+
+.first-pic-paragraph {
+    background-color: rgb(212, 155, 165);
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+.second-pic {
+    margin-left: 50px;
+}
+
+.third-pic {
+    margin-right: 50px;
+}
+
+i {
+    text-align: center;
+}
+
+
+.blank-two {
+    width: 1000px;
+}
+
+.second-pic-paragraph {
+    background-color: rgb(212, 155, 165);
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
